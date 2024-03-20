@@ -35,6 +35,6 @@ It provides a way to run final code that should be executed regardless of whethe
 ### Micro task queue
 -promise came under this queue and also
 mutation observer
-
+-PRIORITY --> MicroTaskQueue > CallBack Queue
 
 

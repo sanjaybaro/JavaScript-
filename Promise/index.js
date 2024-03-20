@@ -25,7 +25,8 @@ p.then((data) => {
   .finally(() => console.log("Finally"));
 
 /*
-// Making Custom promise example
+
+//# Making Custom promise example
 function checkMail() {
   return new Promise((resolve, reject) => {
     if (Math.random() > 0.5) {
