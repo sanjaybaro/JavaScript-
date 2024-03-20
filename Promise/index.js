@@ -24,8 +24,19 @@ p.then((data) => {
   })
   .finally(() => console.log("Finally"));
 
-/*
+//# .then() is itself promises when we console log it
+  p.then((data)=>{
+    // console.log(data);
+    return 13
+  }).then((data)=>{
+    console.log(data);
+    return 4
+  }).then((dataa)=>{
+    console.log(dataa);
+  })
 
+
+/*
 //# Making Custom promise example
 function checkMail() {
   return new Promise((resolve, reject) => {

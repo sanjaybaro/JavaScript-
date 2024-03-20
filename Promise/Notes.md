@@ -37,4 +37,10 @@ It provides a way to run final code that should be executed regardless of whethe
 mutation observer
 -PRIORITY --> MicroTaskQueue > CallBack Queue
 
+5. .then itself returns a promise
+-.then() returns promise so we can use multiple .then () like nested 
+which takes previous data as argument in callback , if not return
+anything in the childiest ,.then() it will give undefined
+
+
 
